@@ -1,0 +1,112 @@
+<html class="page">
+  <head>
+    <title>Sharptop.io</title>
+    <link href="css/main.css" rel="stylesheet">
+  </head>
+  <body class="container">
+    <header>
+      <nav>
+        <ul class="navigation">
+          <li><a href="community.html">Community</a></li>
+          <li><a href="bootcamp.html">Bootcamp</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li style=float:left><img src="stLogo27.jpg"></li>
+          <li style=float:left class="navigation_left" id=logotop>SHARPTOP</li>
+          <li style=float:left id=smallco>CO</li>
+        </ul>
+      </nav>
+    </header>
+
+    <h1>Join the Community!</h1>
+    <hr></hr>
+
+    <h3> Apply Below to Join Our Developer Community: </h3>
+
+    <form action="//formspree.io/stephen@sharptop.co" method="POST">
+      <div class="form-box">
+        <div class="form-box-left">
+        First Name:
+          <input class="form-control" type="text" name="firstName" style="margin-top: 5px" required autofocus>
+            <br>
+            <br>
+          Last Name:
+          <input class="form-control" type="text" name="lastName" style="margin-top: 5px" required>
+            <br>
+            <br>
+          Username:
+          <input class="form-control" type="text" name="userName" style="margin-top: 5px" required>
+            <br>
+            <br>
+        </div>
+        <div class="form-box-right">
+          Password:
+          <input class="form-control" type="text" name="password" style="margin-top: 5px" required>
+            <br>
+            <br>
+          Email:
+          <input class="form-control" type="text" name="email" style="margin-top: 5px" required>
+            <br>
+            <br>
+          Birthdate:
+          <input class="form-control" type="date" name="birthDate" style="margin-top: 5px" required>
+            <br>
+            <br>
+        </div>
+      </div>
+
+      <h3> Before You Submit, Tell Us About Yourself! </h3>
+
+      <div class="form-box">
+        <div class="form-box-left">
+          Are you a pet person?
+          <select class="form-control" name="pets" style="margin-top: 5px">
+            <optgrpup label="Pet Person?">
+              <option value="dogs">Dog Person</option>
+              <option value="cats">Cat Person</option>
+              <option value="allergic">Allergic :(</option>
+              <option value="hate">Hate Pets!</option>
+            </optgroup>
+          </select>
+          <br>
+          <br>
+          What sports do you like?
+          <div class="checkbox-group">
+            <div class="form-box-left">
+              <input class=checkbox type="checkbox" name="baseball" value="baseball" style="margin-top: 5px"> Baseball
+              <br>
+              <input class=checkbox type="checkbox" name="basketball" value="basketball"> Basketball
+              <br>
+              <input class=checkbox type="checkbox" name="basketball" value="basketball"> Football
+              <br>
+            </div>
+            <div class="form-box-right">
+              <input class=checkbox type="checkbox" name="basketball" value="basketball" style="margin-top: 5px"> Soccer
+              <br>
+              <input class=checkbox type="checkbox" name="basketball" value="basketball"> Lacrosse
+              <br>
+              <input class=checkbox type="checkbox" name="basketball" value="basketball"> Golf
+            </div>
+          </div>
+        </div>
+        <div class="form-box-right">
+          <div style="margin-bottom: 5px">How long have you been coding?</div>
+          <br>
+          <input class=radio type="radio" name="0-1" value="apprentice" style="margin-top: 5px"><span> Less than 1 year</span>
+          <br>
+          <input class=radio type="radio" name="1-5" value="junior"><span> 1 - 5 years</span>
+          <br>
+          <input class=radio type="radio" name="6-10" value="mid-level"><span> 6 - 10 years</span>
+          <br>
+          <input class=radio type="radio" name="11+" value="senior"><span> 11 or more years</span>
+          <br>
+          <br>
+        </div>
+      </div>
+      <br>
+      <br>
+      <input class="btn" type="submit">
+    </form>
+  </body>
+</html>
